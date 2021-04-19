@@ -1,9 +1,10 @@
 
-## Setup Docker
+```bash
+# Setup Docker
 
 $ docker-compose up -d
 
-Then Generate Key
+# Then Generate Key
 
 $ docker-compose exec app php artisan key:generate
 
@@ -11,7 +12,7 @@ $ docker-compose exec app php artisan config:cache
 
 As a final step, visit http://your_server_ip in the browser.
 
-## Setup Mysql
+# Setup Mysql
 
 $ docker-compose exec db bash
 
@@ -25,8 +26,10 @@ $ mysql> EXIT;
 
 $ root@12345:/# exit
 
-## Setup Laravel
+# Setup Laravel
 
 $ docker-compose exec app php artisan migrate
 
-## Finish!
+# Finish!
+
+```
