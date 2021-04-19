@@ -1,4 +1,5 @@
-
+# Back-End
+## Build Setup
 ```bash
 # Setup Docker
 
@@ -10,7 +11,7 @@ $ docker-compose exec app php artisan key:generate
 
 $ docker-compose exec app php artisan config:cache
 
-As a final step, visit http://your_server_ip in the browser.
+As a final step, visit (http://your_server_ip) in the browser.
 
 # Setup Mysql
 
