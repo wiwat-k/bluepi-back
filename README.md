@@ -21,6 +21,8 @@ $ root@12345:/# mysql -u root -p
 
 $ mysql> GRANT ALL ON *.* TO 'root'@'%';
 
+$ Enter password: "root"
+
 $ mysql> FLUSH PRIVILEGES;
 
 $ mysql> EXIT;
