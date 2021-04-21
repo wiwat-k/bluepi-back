@@ -19,9 +19,9 @@ $ docker-compose exec db bash
 
 $ root@12345:/# mysql -u root -p
 
-$ mysql> GRANT ALL ON *.* TO 'root'@'%';
-
 $ Enter password: "root"
+
+$ mysql> GRANT ALL ON *.* TO 'root'@'%';
 
 $ mysql> FLUSH PRIVILEGES;
 
